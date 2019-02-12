@@ -2,6 +2,7 @@
  * @param {number[][]} grid
  * @return {number}
  */
+//git test
 var islandPerimeter = function(grid) {
     var perimeter=0;
     // var row=grid.length;

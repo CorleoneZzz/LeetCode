@@ -11,18 +11,18 @@ var lengthOfLongestSubstring = function(s) {
     if (len < 2) {
         return len;
     }
+    // 双指针移动
     let start = 0;
-    let ans = 0;
+    let point = 0;
     for (let i = 1; i < len; i++) {
         let item = s[i];
         let index = s.lastIndexOf(item, i - 1);
         if (index > -1) {
-            ans = Math.max(ans, i - start);
+            point = Math.max(point, i - start);
             start = Math.max(start, index + 1);
         }
     }
-    ans = Math.max(ans, len - start);
-    console.log(ans);
-    return ans;
+    console.log(Math.max(point, len - start));
+    return Math.max(point, len - start);
 };
 lengthOfLongestSubstring('abcabcbb');

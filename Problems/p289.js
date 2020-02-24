@@ -17,7 +17,7 @@ var gameOfLife = function(board) {
                     // 下一轮的存活数据
                     if (lives === 3 || lives - board[i][j]=== 3) {
                         // 存到倒数第二位
-                        board[i][j]|= new Number(10).toString(2);
+                        board[i][j]|= 0b10;
                     }
                 }
             }

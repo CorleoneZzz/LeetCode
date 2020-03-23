@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9294b290-f2a6-4b12-b0f8-1b9ace2c3320" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Problems/p438.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Problems/p128.js" beforeDir="false" afterPath="$PROJECT_DIR$/Problems/p128.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/p20.js" beforeDir="false" afterPath="$PROJECT_DIR$/Problems/p20.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -74,7 +76,11 @@
       <workItem from="1582545472668" duration="1010000" />
       <workItem from="1582546633907" duration="46000" />
       <workItem from="1582546697840" duration="1942000" />
-      <workItem from="1582602175191" duration="12608000" />
+      <workItem from="1582602175191" duration="13938000" />
+      <workItem from="1582635656145" duration="989000" />
+      <workItem from="1582686819111" duration="1698000" />
+      <workItem from="1582905311310" duration="1559000" />
+      <workItem from="1584952709579" duration="1029000" />
     </task>
     <task id="LOCAL-00001" summary="Merge branch 'master' of https://github.com/Guobinze/LeetCode&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;index.html">
       <created>1549954238634</created>

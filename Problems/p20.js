@@ -36,9 +36,11 @@ var isValid = function(s) {
     };
     for (let i in s) {
         const v = s[i];
+        // 左括号就进栈
         if (['(', '{', '['].indexOf(v) > -1) {
             stack.push(v);
         } else {
+            // 因为顺序不对也不可，所以对比栈顶元素是否配对即可
             const peak = stack.pop();
             if (v !== mapper[peak]) {
                 return false;

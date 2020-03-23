@@ -13,9 +13,9 @@ var findAnagrams = function(s, p) {
         vp[c.charCodeAt()]++;
     }
     for (let i = 0; i < n; i++) {
-        if () {
-
-        }
+        // if () {
+        //
+        // }
     }
     return ans;
 };

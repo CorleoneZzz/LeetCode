@@ -9,6 +9,7 @@
  * @param {TreeNode} root
  * @return {number}
  */
+// 迭代，利用null作为每层的分割
 // var maxDepth = function(root) {
 //     if (!root) {return 0}
 //     if (!root.left && !root.right) {return 1}

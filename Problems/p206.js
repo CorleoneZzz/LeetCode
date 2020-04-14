@@ -25,5 +25,6 @@ var reverseList = function(head) {
         pre = cur;
         cur = next;
     }
+    // 返回新的头结点
     return pre;
 };

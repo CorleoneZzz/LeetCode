@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9294b290-f2a6-4b12-b0f8-1b9ace2c3320" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Problems/p141.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -39,8 +40,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/assets" />
       <recent name="$PROJECT_DIR$/Problems" />
+      <recent name="$PROJECT_DIR$/assets" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -90,7 +91,7 @@
       <workItem from="1585192918042" duration="1324000" />
       <workItem from="1585385015353" duration="946000" />
       <workItem from="1586856971547" duration="2208000" />
-      <workItem from="1587021321866" duration="5749000" />
+      <workItem from="1587021321866" duration="6955000" />
     </task>
     <task id="LOCAL-00001" summary="Merge branch 'master' of https://github.com/Guobinze/LeetCode&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;index.html">
       <created>1549954238634</created>

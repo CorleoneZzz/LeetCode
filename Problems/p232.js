@@ -2,19 +2,17 @@
  * Initialize your data structure here.
  */
 var MyQueue = function() {
-    this.head=-1;
-	this.tail=-1;
-	this.data=[];
+    this.stackIn = [];
+    this.stackOut = [];
 };
 
 /**
- * Push element x to the back of queue. 
+ * Push element x to the back of queue.
  * @param {number} x
  * @return {void}
  */
 MyQueue.prototype.push = function(x) {
-	
-    
+    this.stackIn.push(x);
 };
 
 /**
@@ -22,7 +20,14 @@ MyQueue.prototype.push = function(x) {
  * @return {number}
  */
 MyQueue.prototype.pop = function() {
-    
+   if (this.stackOut.length !== 0) {
+        return this.stackOut.pop();
+   } else {
+       while (this.stackIn.length !== 0) {
+           this.stackOut.push(this.stackIn.pop());
+       }
+       return this.stackOut.pop();
+   }
 };
 
 /**
@@ -30,7 +35,14 @@ MyQueue.prototype.pop = function() {
  * @return {number}
  */
 MyQueue.prototype.peek = function() {
-    
+    if (this.stackOut.length) {
+        return this.stackOut[this.stackOut.length - 1];
+    } else {
+        while (this.stackIn.length !== 0) {
+            this.stackOut.push(this.stackIn.pop());
+        }
+        return this.stackOut[this.stackOut.length - 1];
+    }
 };
 
 /**
@@ -38,12 +50,13 @@ MyQueue.prototype.peek = function() {
  * @return {boolean}
  */
 MyQueue.prototype.empty = function() {
-    return this.head===-1&&this.tail===-1;
+    return this.stackIn.length === 0 && this.stackOut.length === 0;
+
 };
 
-/** 
+/**
  * Your MyQueue object will be instantiated and called as such:
- * var obj = Object.create(MyQueue).createNew()
+ * var obj = new MyQueue()
  * obj.push(x)
  * var param_2 = obj.pop()
  * var param_3 = obj.peek()

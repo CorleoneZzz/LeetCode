@@ -18,3 +18,19 @@ var moveZeroes = function(nums) {
         nums[index++] = 0;
     }
 };
+
+// 上面写法俩数组，不太优雅，双指针法
+// i指针一直往前走，index指针只有不等0的时候，交换之后，才往前走
+var moveZeroes = function(nums) {
+    let index = 0;
+    for(let i = 0; i < nums.length; i++) {
+        if (nums[i] !== 0) {
+            nums[index] = nums[i];
+            // nums[i] = 0; 如果不加这个判断，将导致例如[1]这种情况出错
+            if (index !== i) {
+                nums[i] = 0;
+            }
+            index++;
+        }
+    }
+};

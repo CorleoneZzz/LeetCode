@@ -9,22 +9,22 @@
  * @param {TreeNode} root
  * @return {number[]}
  */
-// 中序遍历 inOrder(r)
-// inOrder(r->left)
+// 后序遍历 postOrder(r)
+// postOrder(r->left)
+// postOrder(r->right)
 // print r
-// inOrder(r->right)
-var inorderTraversal = function(root) {
+var postorderTraversal = function(root) {
     const result = [];
     function pushRoot(node) {
-       if (node !== null) {
+        if (node !== null) {
             if (node.left !== null) {
                 pushRoot(node.left);
             }
-            result.push(node.val);
             if (node.right !== null) {
-               pushRoot(node.right);
+                pushRoot(node.right);
             }
-       }
+            result.push(node.val);
+        }
     }
     pushRoot(root);
     return result;

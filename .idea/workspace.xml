@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9294b290-f2a6-4b12-b0f8-1b9ace2c3320" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Problems/p21.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/p11.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -104,7 +104,10 @@
       <workItem from="1588143524461" duration="35000" />
       <workItem from="1588143562447" duration="661000" />
       <workItem from="1588244329815" duration="24000" />
-      <workItem from="1588409755327" duration="2643000" />
+      <workItem from="1588409755327" duration="3081000" />
+      <workItem from="1588416324040" duration="86000" />
+      <workItem from="1588510139196" duration="584000" />
+      <workItem from="1588514709923" duration="450000" />
     </task>
     <task id="LOCAL-00001" summary="Merge branch 'master' of https://github.com/Guobinze/LeetCode&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;index.html">
       <created>1549954238634</created>

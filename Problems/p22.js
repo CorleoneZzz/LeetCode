@@ -6,6 +6,12 @@
  * @param str 当前递归得到的拼接字符串结果
  * @param res 结果集
  */
+// 思路
+// 深度优先搜索(回溯思想)，从空字符串开始构造，做加法。
+
+// 关键点
+// 当 l < r 时记得剪枝
+
 var generateParenthesis = function(n) {
     const res = [];
     function dfs(l, r, str) {
